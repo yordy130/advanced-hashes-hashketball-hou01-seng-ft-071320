@@ -139,7 +139,7 @@ def num_points_scored(player_name)
       data.each do |data_item|
          binding.pry
          data_item.each do |k, v|
-           if 
+           if player_name == :player_name
            binding.pry
           end
          end
