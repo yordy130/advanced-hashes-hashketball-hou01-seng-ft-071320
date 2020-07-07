@@ -185,7 +185,7 @@ def player_numbers(team_name)
       if attribute == :players
       #binding.pry
       data.each do |k, v|
-        k.map do |k, v|
+        k.map do |k1, v1|
         binding.pry
        end
   end
