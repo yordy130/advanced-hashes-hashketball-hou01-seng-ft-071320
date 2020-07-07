@@ -164,6 +164,7 @@ end
 def team_colors(team_name)
   empty_array = []
   game_hash.each do |location, team_data|
+    binding.pry
   end
 end
 
