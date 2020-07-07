@@ -208,6 +208,7 @@ def player_stats(player_name)
             puts k
           binding.pry
         end
+        end
     end
     end
 end
