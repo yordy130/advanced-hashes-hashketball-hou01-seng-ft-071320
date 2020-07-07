@@ -225,7 +225,7 @@ def big_shoe_rebounds
           if k[:shoe] > m_shoe
           m_shoe = k[:shoe] 
           
-          binding.pry
+          #binding.pry
         end
         return k[:rebounds]
       end
