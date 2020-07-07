@@ -179,6 +179,7 @@ end
 
 def player_numbers(team_name)
   #binding.pry
+  result = []
   game_hash.each do |location, team_data|
     #binding.pry
     team_data.each do |attribute, data|
