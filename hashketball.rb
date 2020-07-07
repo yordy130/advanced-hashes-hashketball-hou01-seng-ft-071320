@@ -188,8 +188,8 @@ def player_numbers(team_name)
        return k[:number]
         #binding.pry
   end
-  return k
       end
+      return k[:number]
     end
   end
 end
