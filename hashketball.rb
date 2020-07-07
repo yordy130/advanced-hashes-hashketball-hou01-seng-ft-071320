@@ -169,6 +169,7 @@ def team_colors(team_name)
         data.map do |data_item|
           empty_array << data_item
             end
+            empty_array
           end
       end
   end
