@@ -168,6 +168,7 @@ def team_colors(team_name)
       team_data.each do |k, v|
         
       binding.pry
+    end
   end
   end
 end
