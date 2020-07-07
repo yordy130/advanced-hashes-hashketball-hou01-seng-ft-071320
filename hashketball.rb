@@ -164,16 +164,6 @@ end
 def team_colors(team_name)
   empty_array = []
   game_hash.each do |location, team_data|
-    team_data.each do |attribute, data|
-      if attribute == :colors
-        data.map do |data_item|
-          if team_name == :team_name
-          empty_array << data_item
-          return empty_array
-          end
-            end
-          end
-      end
   end
 end
 
