@@ -167,6 +167,7 @@ def team_colors(team_name)
     team_data.each do |attribute, data|
       if attribute == :colors
         data.map do |data_item|
+          if team_name == :team_name
           empty_array << data_item
           return empty_array
             end
