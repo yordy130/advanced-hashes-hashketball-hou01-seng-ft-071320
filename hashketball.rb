@@ -140,8 +140,8 @@ def num_points_scored(player_name)
          binding.pry
          data_item.each do |k, v|
            if 
-           end
            binding.pry
+          end
          end
        end
       end
