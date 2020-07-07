@@ -155,6 +155,8 @@ def shoe_size(player_name)
           if data_item[:player_name] == player_name
             return data_item[:shoe]
           end
+          end
+          end
       end
   end
 end
