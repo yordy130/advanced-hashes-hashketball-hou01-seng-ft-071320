@@ -145,6 +145,7 @@ def num_points_scored(player_name)
              if player_name == :player_name
                return 
                #binding.pry
+              end
              end
              return v
           end
