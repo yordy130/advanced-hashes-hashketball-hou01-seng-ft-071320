@@ -181,16 +181,19 @@ def player_numbers(team_name)
   #binding.pry
   result = []
   game_hash.each do |location, team_data|
+    if team_data[:team_name] == team_name
     #binding.pry
     team_data.each do |attribute, data|
       if attribute == :players
-      #binding.pry
-      
+        data.each do |k|
+         result << k[:number] 
         binding.pry
+      end
   end
       end
     end
   end
+  result
 end
 
 
