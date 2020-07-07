@@ -188,7 +188,7 @@ def player_numbers(team_name)
       data.map do |k, v|
        result << k[:number]
        
-        #binding.pry
+        binding.pry
   end
   
       end
