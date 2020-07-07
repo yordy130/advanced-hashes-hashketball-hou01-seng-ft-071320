@@ -224,10 +224,9 @@ def big_shoe_rebounds
         data.each do |k, v|
           if k[:shoe] > m_shoe
           m_shoe = k[:shoe] 
-          
-          #binding.pry
+          return k[:rebounds]
+          binding.pry
         end
-        return k[:rebounds]
       end
       end
   end
