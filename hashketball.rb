@@ -203,7 +203,7 @@ def player_stats(player_name)
     team_data.each do |attribute, data|
       #binding.pry
       if attribute == :players
-        data.each do |k, v|
+        data.each do |k|
           binding.pry
         end
     end
