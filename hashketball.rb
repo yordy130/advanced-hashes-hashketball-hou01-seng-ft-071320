@@ -168,8 +168,8 @@ def team_colors(team_name)
       if attribute == :colors
         data.map do |data_item|
           empty_array << data_item
+          return empty_array
             end
-            return empty_array
           end
       end
   end
