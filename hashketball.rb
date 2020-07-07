@@ -164,8 +164,11 @@ end
 def team_colors(team_name)
   empty_array = []
   game_hash.each do |location, team_data|
-    if team_data[:team_name] == :team_name
-    binding.pry
+    if team_data[:team_name] == team_name
+      team_data.each do |k, v|
+        
+      binding.pry
+  end
   end
 end
 
