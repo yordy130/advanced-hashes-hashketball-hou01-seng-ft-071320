@@ -145,8 +145,8 @@ def num_points_scored(player_name)
                return 
                #binding.pry
              end
+             return v
           end
-          return v
          end
        end
       end
