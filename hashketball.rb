@@ -193,9 +193,9 @@ def player_numbers(team_name)
   
       end
     end
-    print result
+    
   end
-  
+  print result
 end
 
 
