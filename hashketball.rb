@@ -177,7 +177,23 @@ def team_names
   end
 end
 
-
+def player_numbers(team_name)
+  #binding.pry
+  game_hash.each do |location, team_data|
+    #binding.pry
+    team_data.each do |attribute, data|
+      if attribute == :players
+      #binding.pry
+      data.each do |data_item|
+        if data_item[:player_name] == player_name
+          return data_item[:number]
+         #binding.pry
+        end
+       end
+      end
+    end
+  end
+end
 
 
 
