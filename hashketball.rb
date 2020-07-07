@@ -1,4 +1,5 @@
 # Write your code below game_hash
+
 def game_hash
   {
     home: {
@@ -127,3 +128,17 @@ def game_hash
 end
 
 # Write code here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
