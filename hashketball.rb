@@ -216,6 +216,7 @@ end
 
 def big_shoe_rebounds
   m_shoe = 0 
+  rebounds = 0
   game_hash.each do |location, team_data|
     #binding.pry
     team_data.each do |attribute, data|
@@ -224,13 +225,14 @@ def big_shoe_rebounds
         data.each do |k, v|
           if k[:shoe] > m_shoe
           m_shoe = k[:shoe] 
-          return k[:rebounds]
+           rebounds = k[:rebounds]
           binding.pry
         end
       end
       end
   end
   end
+  rebounds
 end
 
 
