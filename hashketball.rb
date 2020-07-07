@@ -223,6 +223,7 @@ def big_shoe_rebounds
         #binding.pry
         data.each do |k, v|
           binding.pry
+        end
       end
   end
   end
