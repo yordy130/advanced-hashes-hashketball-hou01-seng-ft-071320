@@ -215,7 +215,7 @@ end
 end
 
 def big_shoe_rebounds
-  m_shoe = 100
+  m_shoe = 0 
   game_hash.each do |location, team_data|
     #binding.pry
     team_data.each do |attribute, data|
