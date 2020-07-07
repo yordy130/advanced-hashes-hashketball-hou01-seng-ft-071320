@@ -206,8 +206,9 @@ def player_stats(player_name)
         data.each do |k|
           if k[:player_name] == player_name
             return k
-          #binding.pry
-        
+          binding.pry
+        end
+    end
     end
 end
 end
