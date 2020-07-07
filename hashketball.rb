@@ -205,7 +205,7 @@ def player_stats(player_name)
       if attribute == :players
         data.each do |k|
           if k[:player_name] == player_name
-            return k
+            puts k
           binding.pry
         end
     end
