@@ -162,13 +162,13 @@ def shoe_size(player_name)
 end
 
 def team_colors(team_name)
+  empty_array = []
   game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
       if attribute == :colors
         data.map do |data_item|
-          
+          empty_array << data_item
             end
-            return data_item
           end
       end
   end
