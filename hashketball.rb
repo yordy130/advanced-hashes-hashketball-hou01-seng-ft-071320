@@ -142,10 +142,11 @@ def num_points_scored(player_name)
            if k == :points
              #binding.pry
              if player_name == :player_name
-               return 10
+               return 
                #binding.pry
              end
           end
+          return v
          end
        end
       end
