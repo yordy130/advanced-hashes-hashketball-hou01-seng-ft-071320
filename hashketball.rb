@@ -170,6 +170,7 @@ def team_colors(team_name)
           if team_name == :team_name
           empty_array << data_item
           return empty_array
+          end
             end
           end
       end
