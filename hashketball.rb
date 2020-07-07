@@ -215,14 +215,14 @@ end
 end
 
 def big_shoe_rebounds
-  m_shoe = 0
+  m_shoe = 100
   game_hash.each do |location, team_data|
     #binding.pry
     team_data.each do |attribute, data|
       if attribute == :players
         #binding.pry
         data.each do |k, v|
-          if k[:shoe] > m_shoe
+          if k[:shoe] < m_shoe
           m_shoe = k[:shoe] 
           return k[:rebounds]
           binding.pry
